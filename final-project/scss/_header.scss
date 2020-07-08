@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1000px) {
+        max-width: 1000px;
+        
+    }
+
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.link {
+    padding: 0px 5px;
+}
+

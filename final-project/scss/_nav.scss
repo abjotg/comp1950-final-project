@@ -1,0 +1,97 @@
+.btn-menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2px;
+}
+
+.btn-menu a:hover,
+.btn-menu:active,
+.btn-menu:focus {
+    color: white;
+}
+
+.button {
+    padding-top: 0px 25px;
+}
+
+nav {
+    display: none;
+    width: 100%;
+    clear: both;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+nav ul {
+    display: block;
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav li {
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+    color: white;
+}
+
+.show header {
+    height: auto;
+}
+
+.show nav {
+    display: block;
+}
+
+@media screen and (min-width: 1000px) {
+    .btn-menu {
+        display: none;
+    }
+    nav {
+        display: block;
+        width: 700px;
+        padding-right: 40px;
+        padding-left: 40px;
+        background-color: black;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    nav a {
+        display: block;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+    
+    nav a:hover,
+    nav a:active,
+    nav a:focus {
+        color: white;
+    }
+
+    .show nav a {
+        display: block;
+    }
+}
